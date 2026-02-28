@@ -1,0 +1,16 @@
+import pandas as pd
+df=pd.read_excel(r'C:\Users\2006a\Downloads\dirty_data_big.xlsx')
+print(df)
+x=df.tail()
+print(x)
+y=df.info()
+print(y)
+z=df.head()
+print(z)
+a=df.duplicated()
+print('a:',a)
+b=df.duplicated().sum()
+print('b:',b)
+c=df.columns
+print('c:',c)
+print(df['Salary'].skew())

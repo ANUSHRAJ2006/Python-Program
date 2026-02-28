@@ -1,0 +1,30 @@
+import numpy as np
+a=np.array([1,2,3])
+b=np.array([4,5,6])
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+g=a%b
+h=a//b
+print('c',c)
+print('d',d)
+print('e',e)
+print('f',f)
+print('g',g)
+print('h',h)
+i=np.sqrt(c)
+print(i)
+j=np.mean(e)
+print(j)
+'''broadcasting'''
+print(a+10)
+'''booleanindexing'''
+k=np.array([10,20,30,40,50])
+print(k[k>20])
+'''vectorization'''
+print('L',a*2)
+'''missing/nav values'''
+m=np.array([1,np.nan,3])
+n=np.isnan(m)
+print('n',n)

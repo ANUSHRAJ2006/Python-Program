@@ -1,0 +1,5 @@
+x=frozenset({1,2,3,})
+y=frozenset({4,5,6})
+x=x.union(y)
+print(x)
+print(type(x))

@@ -1,0 +1,10 @@
+f=open('excel.xlsx','r')
+fl=f.read()
+fl=f.replace('$$','$')
+fl=f.replace('$',',')
+print(f)
+
+f=open('excel.xlsx','w')
+fl=f.write()
+fl=f.close()
+print('done')

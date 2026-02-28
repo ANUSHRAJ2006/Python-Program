@@ -1,0 +1,5 @@
+p=float(input('Amount:'))
+r=float(input('Rate:'))
+t=float(input('Year:'))
+fd=p+(p*r*t/100)
+print('FD Amount:',fd)
